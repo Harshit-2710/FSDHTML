@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: blanchedalmond;
 }
 .container
@@ -8,7 +8,7 @@ body{
     height: 500px;
     width: 1450px;
     margin: 20px;
-}
+} */
 /* .child
 {
     background-color: blue;
@@ -21,7 +21,44 @@ body{
     box-sizing: border-box;
 
 } */
-
-p{
+/* 
+div+p{
     background-color: chocolate;
+} */
+/* .myparagraph{
+    background-color: aqua;
 }
+#mypara{
+    background-color: coral;
+} */
+ .container{
+    background-color: cadetblue;
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .child1,.child2,.child3{
+    height: 200px;
+    border: 1px dotted blue;
+    width: 300px;
+    /* display: inline-block;
+    padding: 20px;
+    margin: 20px; */
+    
+ }
+ .child1{
+    background-color: yellow;
+ }
+ .child2{
+    background-color: green;
+    flex-basis: 50%;
+ }
+ .child3{
+    background-color: rebeccapurple;
+ }
