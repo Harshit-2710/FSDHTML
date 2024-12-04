@@ -5,8 +5,8 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    /* grid-template-rows: repeat(4,1fr);
-    grid-row: 70px; */
+    /* grid-template-rows: repeat(4,1fr); */
+    
     
 
 }
@@ -48,13 +48,14 @@ li:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 400px;
 }
 
 .card1,.card2,.card3,.card4{
-    height: 300px;
+    height: 400px;
     border:1px solid red;
     
-    width: 200px;
+    width: 300px;
 }
 
 .card1{
@@ -62,25 +63,183 @@ li:hover{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-
+    background-color: white;
+    
 }
 
 .card11{
-    background-color: brown;
+    /* background-color: brown; */
     border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .card12{
-    background-color: rgb(199, 60, 60);
+    /* background-color: rgb(199, 60, 60); */
     border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
 }
 
 .card13{
-    background-color: rgb(100, 27, 27);
+    /* background-color: rgb(100, 27, 27); */
     border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
 }
 
 .card14{
-    background-color: rgb(144, 22, 22);
+    /* background-color:     rgb(144, 22, 22); */
     border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
 }
+
+.card2{
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: white;
+    
+}
+
+.card21{
+    /* background-color: brown; */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.card22{
+    /* background-color: rgb(199, 60, 60); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card23{
+    /* background-color: rgb(100, 27, 27); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card24{
+    /* background-color:     rgb(144, 22, 22); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card3{
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: white;
+    
+}
+
+.card31{
+    /* background-color: brown; */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.card32{
+    /* background-color: rgb(199, 60, 60); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card33{
+    /* background-color: rgb(100, 27, 27); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card34{
+    /* background-color:     rgb(144, 22, 22); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.card4{
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: white;
+    
+}
+
+.card41{
+    /* background-color: brown; */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.card42{
+    /* background-color: rgb(199, 60, 60); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card43{
+    /* background-color: rgb(100, 27, 27); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.card44{
+    /* background-color:     rgb(144, 22, 22); */
+    border: 1px solid ;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.main{
+    background-image:url(image/background.jpg);
+    background-size:  1500px 100%;
+    height: 100%;
+    width: 1500px;
+}
+
+.wallpaper {
+    
+}
+
