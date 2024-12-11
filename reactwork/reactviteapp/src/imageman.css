@@ -1,0 +1,6 @@
+.container{
+    background-color: rgba(117, 0, 150, 0.575);
+    height: 600px;
+    width: 600px;
+    border: 4px solid green;
+}   
