@@ -1,6 +1,9 @@
 import React from 'react'
 import Student from './Student'
 import ImageManipulation from './ImageManipulation'
+import UseEffectWork from './UseEffectWork'
+import Login from './login'
+import Registeration from './Registeration'
 
 
 function App() {
@@ -29,6 +32,14 @@ function App() {
       <div>
         <h2 style={{color:'red'}}>hello react js</h2>
         <div>
+          {/* <Login /> */}
+          <br></br>
+          <Registeration/>
+        </div>
+        <div>
+          {/* <UseEffectWork/> */}
+        </div>
+        <div>
           {/* <StateHandling /> */}
           
           {/* <Student data={studentdata} /> */}
@@ -41,13 +52,13 @@ function App() {
               )
             })
           } */}
-         <ImageManipulation />
+         {/* <ImageManipulation /> */}
         </div>
         <div>
           {/* <Student image={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height={100} width={100} />} name="Rahul Kumar" roll="2346" college="ABES Engineering college" /> */}
         </div>
         <div>
-          imageManupulation
+          {/* imageManupulation */}
         </div>
 
       </div>
